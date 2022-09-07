@@ -12,7 +12,7 @@ function printEventHandler(){
     decreaseSizeBtn.style.display = 'block';
 }
 function increaseEventHandler(){
-    var currentfontsize = outputBox.style.fontSize
+    var currentfontsize = outputBox.style.fontSize;
     currentfontsize = currentfontsize.split('px');
     var newfontsize = Number(currentfontsize[0]) + 2;
     newfontsize = newfontsize + 'px';
